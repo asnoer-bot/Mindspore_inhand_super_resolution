@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="custom_model_title">Image Super Resolution</string>
+    <string name="select_model">Load .ms</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="take_photo">Take Photo</string>
+    <string name="execute">Start 2x Enhance</string>
+    <string name="select_image_placeholder">Select or take a low-resolution image</string>
+    <string name="original_image">Original</string>
+    <string name="denoised_image">2x Enhanced</string>
+    <string name="save_result">Save Enhanced Image</string>
+    <string name="output_title">Super Resolution Result</string>
+    <string name="output_placeholder">Result details will appear here.</string>
+    <string name="explain_title">Help</string>
+    <string name="explain_custom_model">This page demonstrates an image super-resolution workflow. Put super_resolution.ms in custommodel/src/main/assets for MindSpore Lite model deployment, or use the built-in CPU 2x enhancement fallback for UI and demo verification.</string>
+    <string name="help">Help</string>
+    <string name="more">More</string>
+    <string name="denoise_ready">Ready.\nBackend: %1$s\n\nTip: select a low-resolution image, then tap Start 2x Enhance.</string>
+    <string name="denoise_image_loaded">Image loaded: %1$d x %2$d\nBackend: %3$s\n\nTap Start 2x Enhance to run.</string>
+    <string name="denoise_progress">Enhancing image resolution...\n\nPlease wait.</string>
+    <string name="denoise_result">Super resolution completed.\nBackend: %1$s\nOriginal size: %2$d x %3$d\nEnhanced size: %4$d x %5$d\nTotal time: %6$d ms\nPreprocess: %7$d ms\nEnhance/Inference: %8$d ms\nPostprocess: %9$d ms</string>
+    <string name="denoise_failed">Super resolution failed. Please select another image and try again.</string>
+    <string name="denoise_failed_with_error">Super resolution failed.\nError: %1$s</string>
+    <string name="select_image_first">Please select an image first</string>
+    <string name="denoise_running">Super resolution is already running</string>
+    <string name="result_already_generated">Enhanced image already exists. Select another image to run again.</string>
+    <string name="result_already_generated_detail">Enhanced image already exists.\nOriginal size: %1$d x %2$d\nEnhanced size: %3$d x %4$d\nBackend: %5$s\n\nSelect another image before running again to avoid repeated 2x enhancement.</string>
+    <string name="image_uri_empty">Image URI is empty</string>
+    <string name="image_load_failed">Failed to load image</string>
+    <string name="image_load_failed_with_error">Failed to load image: %1$s</string>
+    <string name="model_loaded">Model file loaded: %1$s</string>
+    <string name="model_load_failed">Failed to load model file</string>
+    <string name="model_copy_failed">Failed to copy model file</string>
+    <string name="no_result_to_save">Please run enhancement first</string>
+    <string name="save_result_success">Saved to album: %1$s</string>
+    <string name="save_result_failed">Failed to save enhanced image</string>
+    <string name="save_result_failed_with_error">Failed to save enhanced image: %1$s</string>
+</resources>

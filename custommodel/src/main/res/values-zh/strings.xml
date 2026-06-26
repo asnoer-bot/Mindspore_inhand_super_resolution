@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="custom_model_title">图片超分辨率</string>
+    <string name="select_model">加载.ms</string>
+    <string name="select_photo">选择图片</string>
+    <string name="take_photo">拍照</string>
+    <string name="execute">开始2x增强</string>
+    <string name="select_image_placeholder">选择或拍摄一张低分辨率图片</string>
+    <string name="original_image">原图</string>
+    <string name="denoised_image">2x增强图</string>
+    <string name="save_result">保存增强图</string>
+    <string name="output_title">超分结果</string>
+    <string name="output_placeholder">超分结果信息会显示在这里。</string>
+    <string name="explain_title">帮助</string>
+    <string name="explain_custom_model">本页面用于演示图片超分辨率流程。将 super_resolution.ms 放入 custommodel/src/main/assets 后可作为 MindSpore Lite 模型部署入口；未放入模型时，页面使用内置 CPU 2x 增强逻辑完成界面和演示验证。</string>
+    <string name="help">帮助</string>
+    <string name="more">更多</string>
+    <string name="denoise_ready">准备就绪。\n后端：%1$s\n\n请选择一张低分辨率图片，然后点击开始2x增强。</string>
+    <string name="denoise_image_loaded">图片已加载：%1$d x %2$d\n后端：%3$s\n\n点击开始2x增强即可运行。</string>
+    <string name="denoise_progress">正在进行图片超分增强...\n\n请稍候。</string>
+    <string name="denoise_result">超分完成。\n后端：%1$s\n原图尺寸：%2$d x %3$d\n增强图尺寸：%4$d x %5$d\n总耗时：%6$d ms\n预处理：%7$d ms\n增强/推理：%8$d ms\n后处理：%9$d ms</string>
+    <string name="denoise_failed">超分失败，请换一张图片后重试。</string>
+    <string name="denoise_failed_with_error">超分失败。\n错误：%1$s</string>
+    <string name="select_image_first">请先选择图片</string>
+    <string name="denoise_running">图片超分正在运行</string>
+    <string name="result_already_generated">增强图已生成。如需再次运行，请重新选择图片。</string>
+    <string name="result_already_generated_detail">增强图已生成。\n原图尺寸：%1$d x %2$d\n增强图尺寸：%3$d x %4$d\n后端：%5$s\n\n如需再次运行，请先重新选择图片，避免重复2x增强。</string>
+    <string name="image_uri_empty">图片地址为空</string>
+    <string name="image_load_failed">图片加载失败</string>
+    <string name="image_load_failed_with_error">图片加载失败：%1$s</string>
+    <string name="model_loaded">模型文件已加载：%1$s</string>
+    <string name="model_load_failed">模型文件加载失败</string>
+    <string name="model_copy_failed">模型文件复制失败</string>
+    <string name="no_result_to_save">请先执行超分增强</string>
+    <string name="save_result_success">已保存到相册：%1$s</string>
+    <string name="save_result_failed">保存增强图失败</string>
+    <string name="save_result_failed_with_error">保存增强图失败：%1$s</string>
+</resources>
